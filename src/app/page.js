@@ -70,7 +70,7 @@ const Home = () => {
             </Button>
           </Box>
         </form>
-        {error ? (
+        {error || !weather ? (
           <Typography variant="subtitle1" color="error" sx={{ mt: 2 }}>
             {error}
           </Typography>
