@@ -76,6 +76,7 @@ const Home = () => {
           </Typography>
         ) : (
           <Box>
+            {/* we can divide into components  */}
             {weather && (
               <Box sx={{ mt: 4, textAlign: "center" }}>
                 <Typography
@@ -140,7 +141,7 @@ const Home = () => {
                 </Typography>
               </Card>
             </Box>
-
+            {/* we can divide into components  */}
             <Box sx={{ display: "flex", justifyContent: "space-around" }}>
               <Card
                 sx={{
